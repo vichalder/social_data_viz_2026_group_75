@@ -1,5 +1,11 @@
-# Ignore all CSV files
+# Large data files
 *.csv
+*.json
+*.pkl
+*.sqlite
+
+# Log files
+*.log
 
 # Ignore Google Drive shortcut files
 .desktop
@@ -11,3 +17,13 @@
 # IPython
 profile_default/
 ipython_config.py
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
